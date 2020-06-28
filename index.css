@@ -1,62 +1,13 @@
 body{
-  font-family:Aria, Verdana, sans-sans-serif;
-  background-color: white}
-h2{
-  color:#ee3e80;
-  font-family: 'PT Serif', serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  word-spacing: 1em;}
-p{
-  color:#ee3e80;
-  background-color: #ffffff;
-  background-color: hsla(0,100%,100%,0.5);
-  font-family: 'PT Serif', serif;
-  line-height: 1.4em;
-  text-align: center;}
-p:first-letter {font-size:200%}
-a:link{color:deeppink;
-  text-decoration: none;}
-a:visited{color: black;}
-a:hover{color:deeppink;
-text-decoration: underline;}
-a:active{color: darkcyan;}
-.important{
-  color:#ee3e80;}
-
-  <!--This is meant to be for the search box but it doesn't work -->
-input{
-  padding: 6px 12px 6px 12px;
-  border: 1px solid #665544;
-  color: #ffffff;}
-input.submit:hover {
-  background-color: #665544;}
-input.submit:active {
-  background-color: chocolate;}
-input.text{
-  color:#cccccc;}
-input.text:focus{
-  color:#665544;}
-
-div{
-  height:300px;
-  width:400px;
-  background-color: #elddda;}
-
-td.description{
-  min-width:400px;
-  max-width: 650px;
-  min-height: 10px;
-  max-height: 30px;
-  text-align: justify;
-  padding:5px;
-  margin:0px;}
-
-p.one{overflow:scroll;}
-
-p.box1{border-width:2px; border-style: solid;}
-p.box2{border-width:thick; border-style: dashed; margin:20px auto 10px auto;
-  text-align:left;}
-p.box3{border: 2px solid blue; padding:10px; border-radius: 1em 4em 1em 4em;}
-li{display: inline; margin-right: 70px;}
+  background-color: white;
+  background-image: url("images/backgroundPhotoHomepage.jpg");
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  height: 1000px; width: 960px;}
+.wrapper{
+  width:720px;
+  margin:0px auto}
+.header{
+  float: left;
+  margin-left: -60px;
+  margin-top: 12px;}
